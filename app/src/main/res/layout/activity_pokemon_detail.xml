@@ -1,0 +1,247 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="#2A0D2E">
+
+    <!-- Imagen del Pokémon -->
+    <ImageView
+        android:id="@+id/imageViewPokemonDetail"
+        android:layout_width="match_parent"
+        android:layout_height="251dp"
+        android:layout_gravity="center"
+        android:background="#FFFFFF"
+        android:contentDescription="@string/pokemon_image"
+        android:scaleType="centerCrop" />
+    <!-- Fila para Altura, Peso y Experiencia base -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:orientation="horizontal"
+        android:gravity="center">
+
+        <!-- Altura -->
+        <TextView
+            android:id="@+id/textViewPokemonHeight"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textColor="@android:color/white"
+            android:textSize="18sp"
+            android:text="Altura: 3"
+            android:background="@drawable/bordered_text_view"
+            android:padding="8dp"/>
+
+        <!-- Peso -->
+        <TextView
+            android:id="@+id/textViewPokemonWeight"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textColor="@android:color/white"
+            android:textSize="18sp"
+            android:text="Peso: 40"
+            android:background="@drawable/bordered_text_view"
+            android:padding="8dp"/>
+
+        <!-- Experiencia base  -->
+        <TextView
+            android:id="@+id/textViewPokemonExperience"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textColor="@android:color/white"
+            android:textSize="18sp"
+            android:text="Experiencia base: 101"
+            android:background="@drawable/bordered_text_view"
+            android:padding="8dp"/>
+    </LinearLayout>
+
+    <!-- Contenedor para ID, Nombre, Estadísticas y Peso -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="0.1dp"
+        android:orientation="vertical"
+        android:background="#2A0D2E"
+        android:padding="1dp">
+
+        <TextView
+            android:id="@+id/textViewId"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="ID Número: 001"
+            android:textColor="@android:color/white"
+            android:textSize="12sp"/>
+        <TextView
+            android:id="@+id/textViewPokemonName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="1dp"
+            android:textColor="@android:color/white"
+            android:textSize="12sp" />
+
+        <TextView
+            android:id="@+id/textViewStatistics"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Estadísticas: 50 HP, 50 Ataque"
+            android:textColor="@android:color/white"
+            android:textSize="12sp"/>
+
+        <TextView
+            android:id="@+id/textViewPeso"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Peso: 40"
+            android:textColor="@android:color/white"
+            android:textSize="12sp"/>
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Habilidades"
+        android:textColor="@android:color/white"
+        android:fontFamily="@font/avenir_next_pro_bold"
+        android:textSize="13sp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center"
+        android:layout_marginTop="4dp">
+
+        <TextView
+            android:id="@+id/habilidad1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textColor="@android:color/white"
+            android:textSize="12sp"
+            android:text="slimp"
+            android:background="@drawable/bordered_text_view"
+            android:padding="8dp"/>
+
+        <TextView
+            android:id="@+id/textHabildiad2"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textColor="@android:color/white"
+            android:textSize="12sp"
+            android:text="impostor"
+            android:background="@drawable/bordered_text_view"
+            android:padding="8dp"/>
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Movimientos"
+        android:textColor="@android:color/white"
+        android:fontFamily="@font/avenir_next_pro_bold"
+        android:textSize="13sp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center"
+        android:layout_marginTop="4dp">
+
+        <TextView
+            android:id="@+id/movimeinto1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textColor="@android:color/white"
+            android:textSize="12sp"
+            android:text="Transformacion"
+            android:background="@drawable/bordered_text_view"
+            android:padding="8dp"/>
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Articulos Cargados"
+        android:textColor="@android:color/white"
+        android:fontFamily="@font/avenir_next_pro_bold"
+        android:textSize="13sp"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center"
+        android:layout_marginTop="4dp">
+
+        <TextView
+            android:id="@+id/movimeinto3"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textColor="@android:color/white"
+            android:textSize="12sp"
+            android:text="metalPowertd"
+            android:background="@drawable/bordered_text_view"
+            android:padding="8dp"/>
+        <TextView
+            android:id="@+id/movimeinto4"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textColor="@android:color/white"
+            android:textSize="12sp"
+            android:text="quickpowerd"
+            android:background="@drawable/bordered_text_view"
+            android:padding="8dp"/>
+
+    </LinearLayout>
+    <!-- Botón para ir a Favoritos -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center"
+        android:layout_marginTop="16dp">
+
+        <Button
+            android:id="@+id/Safe"
+            android:layout_width="214dp"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#E91E63"
+            android:text="Favoritos"
+            android:textColor="@android:color/white" />
+
+        <ImageView
+            android:id="@+id/imageViewFavorite"
+            android:layout_width="50dp"
+            android:layout_height="match_parent"
+            android:layout_marginStart="29dp"
+            android:contentDescription="@string/favorite"
+            android:src="@drawable/baseline_favorite_border_24"
+            app:tint="@android:color/white" />
+    </LinearLayout>
+
+    <!-- Botón para regresar -->
+    <Button
+        android:id="@+id/buttonBack"
+        android:layout_width="380dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="16dp"
+        android:backgroundTint="#E91E63"
+        android:text="Regresar"
+        android:textColor="@android:color/white" />
+
+</LinearLayout>

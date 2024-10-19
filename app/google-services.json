@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "109231171248",
+    "project_id": "digitalstudiotetspokemons",
+    "storage_bucket": "digitalstudiotetspokemons.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:109231171248:android:dd939f7eb03d7589dffd75",
+        "android_client_info": {
+          "package_name": "com.ds.digitalstudiotetspokemons"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAwneBj3dSQZ1pAt8zzrc8EBZ9hme_E9aI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:109231171248:android:ce17eec6200789fedffd75",
+        "android_client_info": {
+          "package_name": "com.ds.pokeapi_kotlin_idigitalstudios"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAwneBj3dSQZ1pAt8zzrc8EBZ9hme_E9aI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

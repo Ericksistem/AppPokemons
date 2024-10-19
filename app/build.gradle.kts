@@ -119,7 +119,6 @@ dependencies {
     //Hilt
     implementation("com.google.dagger:hilt-android:2.49")
     kapt("com.google.dagger:hilt-android-compiler:2.48")
-
     //Performance Metrics
     implementation("androidx.metrics:metrics-performance:1.0.0-beta01")
 
